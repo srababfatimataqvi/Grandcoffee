@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./jquery-plugin/count-up-me/res/countMe/countMe.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <link rel="stylesheet" href="./css/internal-pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/536d220a16.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./images/favicon-icon.png">
+</head>
+
+<body>
+    <header>
+        <div class="header-section seperator-wrapper">
+            <div class="seperator gradient"></div>
+            <div class="header container">
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/home-images/Logo3.png" alt="Logo"></a>
+                </div>
+                <div class="menu-list">
+                    <ul class="main-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutUs.html">About Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./faq.html">FAQ's</a></li>
+                        <li><a href="./contactUs.html">Contact Us</a></li>
+                        <!-- <img src="./Images/HomeImages/search-icon.svg" alt="Icon"> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="seperator gradient"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="AboutUs-section about-section">
+            <div class="aboutUs-container container">
+                <div class="abt-col-1">
+                    <img src="./images/about-us-images/col-img.png" alt="Image">
+                </div>
+                <div class="overlay-div abt-col-1 container">
+                    <div class="overlay-content container" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <div>
+                            <h2>About Us</h2>
+                            <p>We make the delicious coffee for the coffee lovers.
+                                Step into the heart of "The Grand Coffee", where passion meets the perfect brew. We are
+                                not serving just serving coffee, we are crafting moments that linger in the soul.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team-member-section">
+            <h2 class="border-animation">Our Team</h2>
+            <div class="team-member container">
+                <div class="col-1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                    <div>
+                        <img src="./images/about-us-images/img-1.jpg" alt="Image">
+                    </div>
+                    <h3>Sophia</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="col-1">
+                    <div>
+                        <img src="./images/about-us-images/img-2.jpg" alt="Image">
+                    </div>
+                    <h3>Benjamin W.</h3>
+                    <p>Manager</p>
+                </div>
+                <div class="col-1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                    <div>
+                        <img src="./images/about-us-images/img-3.jpg" alt="Image">
+                    </div>
+                    <h3>Muchen Jack</h3>
+                    <p>Our Coffee Expert</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="counter-section">
+            <div class="counter container">
+                <div class="border">
+                    <h2 id="num1">250</h2>
+                    <p>Orders</p>
+                </div>
+                <div class="border">
+                    <h2 id="num2">220</h2>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="border">
+                    <h2 id="num3">335</h2>
+                    <p>Total Subscribers</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="newsletter-section">
+            <div class="newsletter container">
+                <img data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1000"
+                    src="./images/about-us-images/newsletter" alt="Image">
+
+                <div class="newsletter-content" data-aos="zoom-in-left" data-aos-easing="linear"
+                    data-aos-duration="1000">
+
+                    <h3 id="heading">Our Newsletter</h3>
+                    <p>Coffee News Everyday</p>
+
+                    <form id="form">
+                        <div>
+                            <input type="email" id="email" name="email" placeholder="Enter Email"><br>
+                            <span id="emailerror" class="error"></span>
+                            <span id="subscribed" class="success"></span>
+                        </div>
+                        <div>
+                            <button type="submit" id="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <div class="footer-container container">
+                <div class="box" id="box-1">
+                    <h3>About</h3>
+                    <p>Step into the heart of "The Grand Coffee", where passion meets the perfect brew. We are
+                        not serving just serving coffee, we are crafting moments that linger in the soul. Come sip,
+                        smile and share the joy.</p>
+
+                </div>
+                <div class="box" id="box-2">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutUs.html">About Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contactUs.html">Contact Us</a></li>
+                        <li><a href="./faq.html">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="box" id="box-3">
+                    <h3>Useful Link</h3>
+                    <div class="col">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    </div>
+                    <div class="col">
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    </div>
+                    <div class="col">
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+                    </div>
+                </div>
+                <div class="box" id="box-4">
+                    <h3>Contact Us</h3>
+                    <div>
+                        <img src="./images/footer-icons/icons8-location-50.png" alt="Icon">
+                        <address><a
+                                href="https://www.google.com/maps/place/Del+Frio/@24.863602,67.054691,16z/data=!4m6!3m5!1s0x3eb33e8599e67dd5:0x5028af1bfc205f15!8m2!3d24.8636023!4d67.0546906!16s%2Fg%2F1pp2vg2bw?hl=en&entry=ttu"
+                                target="_blank"> Address : 103 A, Al Zaiby Arcade</a>
+                        </address>
+                    </div><br>
+                    <div class="phone-div">
+                        <img src="./images/footer-icons/icons8-phonecall-50.png" alt="Icon">
+                        <a href="tel:+011234567890"> Call : +01 1234567890</a>
+                    </div><br>
+                    <div class="email-div">
+                        <img src="./images/footer-icons/icons8-envelope-50.png" alt="Icon">
+                        <a href="mailto:demo@gmail.com"> Email : demo@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
